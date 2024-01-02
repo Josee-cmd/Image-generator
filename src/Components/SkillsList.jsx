@@ -42,7 +42,7 @@ function SkillsList() {
   if (skill.length === 0) {
     return (
       <>
-        <h1>El usuario no cuenta con habilidades.</h1>;
+        <h1>El usuario no cuenta con habilidades.</h1>
         <FormSkills myFuction={createSkill} />
       </>
     );
