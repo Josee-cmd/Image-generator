@@ -1,0 +1,50 @@
+/* Styles.scss */
+.container {
+  max-height: 300px; /* Establece la altura máxima del contenedor */
+  overflow-y: auto; /* Agrega un desplazamiento vertical si la altura máxima se excede */
+  margin-left: 3.7em;
+  top: 25em;
+  position: absolute;
+  button {
+    width: 2%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    margin-left: 0.1em;
+  }
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    width: calc(33.333% - 20px);
+    margin: 8px;
+    box-sizing: border-box;
+    position: relative;
+    width: 8em;
+    max-width: 10em;
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+  }
+}
+
+.title {
+  position: absolute;
+  margin-left: 3.6em;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20.5em;
+}
